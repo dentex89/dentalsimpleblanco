@@ -114,6 +114,15 @@ body {
   padding: 8rem 0;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
 }
+.fixed-background .fondo {
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+  border-radius: 1rem;
+}
+.fixed-background .fondo h1 {
+  font-size: 3rem;
+  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
 .fixed {
   background-image: url(../img/macbook.jpg);
   position: fixed;
@@ -206,7 +215,10 @@ footer .footerWidget ul li {
     font-size: 1.8rem;
   }
   .fixed-background {
-    padding: 9rem 0;
+    padding: 6rem 0;
+  }
+  .fixed-background .fondo h1 {
+    font-size: 2.8rem;
   }
 
 }
@@ -217,17 +229,20 @@ footer .footerWidget ul li {
     font-size: 1.5rem;
   }
   .fixed-background {
-    padding: 7rem 0;
+    padding: 5.5rem 0;
+  }
+  .fixed-background .fondo h1 {
+    font-size: 2.1rem;
   }
   .fa-asterisk {
     font-size: .9rem;
     margin-bottom: .4rem;
   }
   .equipoTop h1 {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
   .nosotrosTop h1 {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
 
 }
@@ -241,17 +256,23 @@ footer .footerWidget ul li {
     w-25;
   }
   .fixed-background {
-    padding: 6rem 0;
+    padding: 5rem 0;
+  }
+  .fixed-background .fondo {
+    width: 65%;
+  }
+  .fixed-background .fondo h1 {
+    font-size: 1.5rem;
   }
   .fa-asterisk {
     font-size: .4rem;
     margin-bottom: .3rem;
   }
   .equipoTop h1 {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   .nosotrosTop h1 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
