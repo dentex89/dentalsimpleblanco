@@ -59,6 +59,7 @@ body {
 }
 .llamanos h2 {
   color: #fff;
+  font-size: 2rem;
 }
 .llamanos .btn-light{
   color: #34adbc;
@@ -220,13 +221,15 @@ footer .footerWidget ul li {
   .fixed-background .fondo h1 {
     font-size: 2.8rem;
   }
-
 }
 
 /* Devices under 992px (xl) */
 @media (max-width: 991.98px) {
   .landing h4 {
     font-size: 1.5rem;
+  }
+  .llamanos h2 {
+    font-size: 1.6rem;
   }
   .fixed-background {
     padding: 5.5rem 0;
@@ -254,6 +257,10 @@ footer .footerWidget ul li {
   }
   .landing img {
     w-25;
+  }
+  .llamanos h2 {
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
   }
   .fixed-background {
     padding: 5rem 0;
